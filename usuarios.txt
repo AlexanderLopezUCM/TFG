@@ -1,0 +1,11 @@
+Nombre: hplovecraft
+Contraseña: aristotle
+
+Nombre: marktwain
+Contraseña: plato
+
+Nombre: edgarallanpoe
+Contraseña: socrates
+
+Nombre: julesverne
+Contraseña: theseus
