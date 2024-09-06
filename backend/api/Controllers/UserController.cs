@@ -35,9 +35,7 @@ namespace api.Controllers
 
             user.Username = patchUserDTO.Username ?? user.Username;
 
-            _userRepository.UpdateUser(user);
-
-            return Ok();
+            return _userRepository.UpdateUser(user) ? Ok() : BadRequest();
         }
         [HttpDelete("user")]
         public IActionResult Delete()

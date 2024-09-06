@@ -73,10 +73,6 @@ namespace api.Controllers
         [HttpPost]
         public IActionResult Create(CreateCollectionDTO createCollectionDTO)
         {
-            Console.WriteLine("\n\n\n");
-            Console.WriteLine(JsonSerializer.Serialize(createCollectionDTO));
-            Console.WriteLine("\n\n\n");
-
             if (!TryGetClientInfo(out int clientID, out User? user))
                 return BadRequest();
 
